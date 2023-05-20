@@ -6,7 +6,7 @@ import com.reto.pruebatecnicalogistica.entidades.LogisticaTerrestre;
 import java.util.List;
 import java.util.Optional;
 
-public interface ILogisticaTerrestre {
+public interface ILogisticaTerrestreService {
     List<LogisticaTerrestre> ObtenerLogisticaTerrestre();
     Optional<LogisticaTerrestre> ObtenerLogisticaTerrestrePorId(Long id);
     LogisticaTerrestre CrearLogisticaTerrestre(LogisticaTerrestre logisticaTerrestre);

@@ -3,7 +3,7 @@ package com.reto.pruebatecnicalogistica.servicios.implementacion;
 
 import com.reto.pruebatecnicalogistica.entidades.LogisticaTerrestre;
 import com.reto.pruebatecnicalogistica.repositorios.LogisticaTerrestreRepository;
-import com.reto.pruebatecnicalogistica.servicios.interfaces.ILogisticaTerrestre;
+import com.reto.pruebatecnicalogistica.servicios.interfaces.ILogisticaTerrestreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class LogisticaTerrestreService implements ILogisticaTerrestre {
+public class LogisticaTerrestreServiceService implements ILogisticaTerrestreService {
     @Autowired
     private LogisticaTerrestreRepository logisticaTerrestreRepository;
     @Override
